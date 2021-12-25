@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+:root {
+    --brand-01: #00ABAA;
+    --brand-02: #FFFFFF;
+    --text-01: #2B343B;
+    --text-02: #4B5A67;
+    --text-03: #98A7B4;
+    --text-04: #C4CDD4;
+    --surface-01: #F6FAFE;
+    --surface-02: #E1E5E9;
+    --surface-03: #F2F6F8;
+    --surface-04: #F6F7F8;
+    --hover-1: #33BCBB;
+    --hover-2: #F2F6F8;
+    --active-1: #009A99;
+    --active-2: #E5EDF1;
+    --success: #27BF59;
+    --warning: #FF9550;
+    --error: #D7385E;
+}

@@ -1,0 +1,43 @@
+.button-primary {
+  height: 48px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 2;
+  color: $brand-02;
+  padding: 4px 70px;
+  background: $brand-01;
+  border-radius: 8px;
+  -webkit-transition: background 0.3s ease-in;
+    -moz-transition: background 0.3s ease-in;
+    -o-transition: background 0.3s ease-in;
+    transition: background 0.3s ease-in;
+
+  &:hover {
+    background: $hover-1;
+  }
+
+  &:active {
+    background: $active-1;
+  }
+
+  @media (max-width: 1499px) {
+    height: 40px;
+    font-size: 16px;
+    line-height: 2;
+    padding: 4px 60px;
+  }
+
+  @media (max-width: 999px) {
+    height: 32px;
+    font-size: 14px;
+    line-height: 1.7;
+    padding: 4px 16px;
+  }
+  @media (max-width: 576px) {
+    height: 24px;
+    font-size: 10px;
+    line-height: 1.7;
+    padding: 4px 12px;
+    border-radius: 4px;
+  }
+}
